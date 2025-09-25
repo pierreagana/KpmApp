@@ -1,5 +1,25 @@
 This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop (JVM).
 
+# 🚀 Kotlin Multiplatform Project
+
+<p align="center">
+  <img src="images/banner.png" alt="Kotlin Multiplatform Banner" width="600"/>
+</p>
+
+## 📱 Screenshots
+
+### Android
+<img src="images/android.png" alt="Android App" width="300"/>
+
+### iOS
+<img src="images/ios.png" alt="iOS App" width="300"/>
+
+### Web
+<img src="images/web.png" alt="Web App" width="600"/>
+
+### Desktop
+<img src="images/desktop.png" alt="Desktop App" width="600"/>
+
 * [/composeApp](./composeApp/src) is for code that will be shared across your Compose Multiplatform applications.
   It contains several subfolders:
   - [commonMain](./composeApp/src/commonMain/kotlin) is for code that’s common for all targets.
