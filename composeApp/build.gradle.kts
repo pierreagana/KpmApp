@@ -50,6 +50,11 @@ androidMain.dependencies {
     implementation(libs.ktor.client.android)
     implementation(libs.volley)
 
+    //decomplse step 1
+    implementation("com.arkivanov.decompose:decompose:3.3.0")
+    implementation("com.arkivanov.decompose:extensions-compose:3.3.0")
+
+
 }
 commonMain.dependencies {
     implementation(compose.runtime)
@@ -73,6 +78,9 @@ commonMain.dependencies {
     //implementation(libs.mvvm.core)
     //implementation(libs.image.loader)
     api(libs.image.loader)
+    //decomplse step 1
+    implementation("com.arkivanov.decompose:decompose:3.3.0")
+    implementation("com.arkivanov.decompose:extensions-compose:3.3.0")
 
 
 }
